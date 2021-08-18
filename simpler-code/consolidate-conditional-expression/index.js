@@ -9,6 +9,7 @@ function canUploadImage(file) {
 
   return true;
 }
+
 /**
  *
  * Example 1 Whith: Consolidate Conditional Expression
