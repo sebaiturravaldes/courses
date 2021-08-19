@@ -7,7 +7,7 @@ module.exports = async function(params) {
    
     if (!name) {
         vscode.window.showWarningMessage('Name is required.');
-        return false;
+        return;
     }
 
     // Generate CRUD
@@ -15,7 +15,7 @@ module.exports = async function(params) {
 
     if (fs.existsSync(dir)) {
         vscode.window.showWarningMessage('Directory already exists.');
-        return false;
+        return;
     }
 
     fs.mkdirSync(dir);
@@ -25,12 +25,12 @@ module.exports = async function(params) {
     fs.mkdirSync(dir + '/delete');
 
     const data = `export default {}`
-    await fs.writeFileSync(dir + '/index.js', data);
-    await fs.writeFileSync(dir + '/create/index.js', data);
-    await fs.writeFileSync(dir + '/read/index.js', data);
-    await fs.writeFileSync(dir + '/update/index.js', data);
-    await fs.writeFileSync(dir + '/delete/index.js', data);
+    fs.writeFileSync(dir + '/index.js', data);
+    fs.writeFileSync(dir + '/create/index.js', data);
+    fs.writeFileSync(dir + '/read/index.js', data);
+    fs.writeFileSync(dir + '/update/index.js', data);
+    fs.writeFileSync(dir + '/delete/index.js', data);
 
     vscode.window.showInformationMessage('CRUD generated successfully...');
-    return true;
+    return;
 }

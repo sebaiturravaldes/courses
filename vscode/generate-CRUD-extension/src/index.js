@@ -19,12 +19,12 @@ function activate(context) {
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
-	const disposable = [
+	const commands = [
 		vscode.commands.registerCommand('my-first-extension.helloWorld', helloWorld),
 		vscode.commands.registerCommand('my-first-extension.generateCRUD', generateCRUD)
 	]
 
-	context.subscriptions.push(disposable);
+	context.subscriptions.push(commands);
 }
 
 // this method is called when your extension is deactivated
