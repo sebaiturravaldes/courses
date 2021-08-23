@@ -1,11 +1,16 @@
 # Curso de JavaScript ~ Roadmap
 
 
+## Requirements
+
+Have knowledge of programming fundamentals
 
 ## Tópicos
 
 
 ## Intro
+
+
 ## Comments
 
 - Single Line Comments
@@ -115,25 +120,30 @@
 ## Frameworks
 
 ### Frontend
-- Angular
-- Ember
-- React
-- Svelte
-- Vue
+- [Angular](https://angularjs.org/)
+- [Ember](https://emberjs.com/)
+- [React](https://reactjs.org/)
+- [Svelte](https://svelte.dev/)
+- [Vue](https://vuejs.org/)
 
 ### Backend
 
-- Nest
-- Express
+- [Express](https://expressjs.com/es/)
+- [Nest](https://nestjs.com/)
+- [Orion](https://orionjs.com/)
+- [Adonis](https://adonisjs.com/)
+- [Meteor](https://www.meteor.com/)
+- [Koa](https://koajs.com/)
+- [Salis](https://sailsjs.com/)
 
 ## Packages
 
-- axios
-- dayjs
-- lodash
+- [axios](https://axios-http.com/)
+- [dayjs](https://day.js.org/)
+- [lodash](https://lodash.com/)
 - 3D
-    - threeJS
-    - D3.js
+    - [threeJS](https://threejs.org/)
+    - [D3.js](https://d3js.org/)
 
 ## 
 
