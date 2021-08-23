@@ -2,7 +2,7 @@
 
 ## Tópicos
 
-![Image](/src/images/test-roadmap.png)
+![Image](./src/images/test-roadmap.png)
 
 
 ### Intro
