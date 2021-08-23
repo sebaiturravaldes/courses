@@ -35,7 +35,7 @@
 
 - 
 
-## Statements and declarations
+## [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 
 ### Control Flow
 - Block
@@ -47,10 +47,28 @@
 - throw
 - try...catch
 
-### 
+### Declarations
 
-- while
+- var
+- let
+- const
+
+### Functions and classes
+
+- function 
+- function*
+- async function
+- return
+- class
+
+### Iterations / Loops
+- do...while
 - for
+- for...in
+- for...of
+- for await...of
+- while
+
 
 ## Hoisting / Context
 
