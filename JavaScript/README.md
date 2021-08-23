@@ -1,23 +1,23 @@
-# Curso de JavaScript
+# Curso de JavaScript ~ Roadmap
+
+
 
 ## Tópicos
 
 
-
-### Intro
-### Comments
+## Intro
+## Comments
 
 - Single Line Comments
 - Multi Lines Comments
 - Using Comments to Prevent Execution
 - Hashbang Comment
 
-### Sintaxis / Lexical Grammar
+## Sintaxis / Lexical Grammar
 
 - Reserved keywords
 
-## Data types
-
+## Data Types
 - String
 - Number
 - Boolean
@@ -37,7 +37,7 @@
 
 ## Statements and declarations
 
-### Contorl Flow
+### Control Flow
 - Block
 - if...else
 - break
@@ -112,10 +112,10 @@
 
 - axios
 - dayjs
+- lodash
 - 3D
     - threeJS
     - D3.js
-
 
 ## 
 
