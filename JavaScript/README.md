@@ -119,6 +119,8 @@ Have knowledge of programming fundamentals
 
 ## Frameworks
 
+List of some frameworks on JavaScript
+
 ### Frontend
 - [Angular](https://angularjs.org/)
 - [Ember](https://emberjs.com/)
@@ -137,6 +139,8 @@ Have knowledge of programming fundamentals
 - [Salis](https://sailsjs.com/)
 
 ## Packages
+
+list of some libraries for JavaScript
 
 - [axios](https://axios-http.com/)
 - [dayjs](https://day.js.org/)
